@@ -1,0 +1,93 @@
+@media (min-width: 768px) {
+    #wrapper {
+        margin-top: 50px;
+    }
+
+    .container {
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .site-nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 666px;
+        margin: 0px auto 34px auto;
+    }
+    .nav-item {
+        margin-top: 23px;
+    }
+    .pre-title {
+        margin-top: 38px;
+    }
+    .title {
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-size: 50px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        max-width: 485px;
+    }
+    .subtitle {
+        margin-bottom: 34px;
+        max-width: 300px;
+    }
+    .find-partner {
+        width: 225px;
+    }
+    .header {
+        padding-bottom: 115px;
+        background-image: url(/img/mobile/font-tablet.png);
+        background-color: rgba(26, 25, 21, 0.9) ;
+    }
+    .slogan {
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+    .service-menu {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 455px;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 55px;
+    }
+    .card:nth-last-child(-n+2) {
+        margin-bottom: 38px;
+    }
+    .see-other {
+        width: 193px;
+        height: 40px;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        min-width: 960px;
+        max-width: 1440px;
+    }
+    .site-nav {
+        max-width: 940px;
+    }
+    .site-navigation{
+        
+    }
+    .header {
+        padding-bottom: 115px;
+        background-image: url(/img/mobile/font-desctop.png);
+        background-color: rgba(26, 25, 21, 0.9) ;
+    }
+    .service-menu {
+        width: 910px;
+    }
+    .service {
+        margin-bottom: 64px;
+    }
+}
