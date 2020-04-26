@@ -35,8 +35,6 @@
     }
     .header {
         padding-bottom: 115px;
-        background-image: url(../img/mobile/font-tablet.png);
-        background-color: rgba(26, 25, 21, 0.9) ;
     }
     .slogan {
         margin-top: 60px;
@@ -77,8 +75,6 @@
     }
     .header {
         padding-bottom: 115px;
-        background-image: url(../img/mobile/font-desctop.png);
-        background-color: rgba(26, 25, 21, 0.9) ;
     }
     .service-menu {
         width: 910px;
